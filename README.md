@@ -10,7 +10,9 @@ Most midpoint-root functions convert trees to cophentic distances to find the pa
 
 In R:
 ```
-> tree_unrooted = read.tree("treeFile.phy")
-> tree_rooted = midpoint.root2(tree = tree_unrooted)
-> write.tree(phy = tree_rooted, file = "treeFile_rooted.phy")
+library(phytools)
+library(MidpointRooter)
+tree_unrooted = read.tree("treeFile.phy")
+tree_rooted = midpoint.root2(tree = tree_unrooted)
+write.tree(phy = tree_rooted, file = "treeFile_rooted.phy")
 ```

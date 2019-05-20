@@ -5,7 +5,7 @@ Most midpoint-root functions convert trees to cophentic distances to find the pa
 
 ## Instructions
 1) Install phytools via CRAN
-2) Download and install the MidpointRooter package
+2) Download and install the MidpointRooter package (https://github.com/bwemheu/MidpointRooter/raw/master/MidpointRooter_0.1.0.tar.gz)
 3) Use the midpoint.root2 function to root a tree
 
 In R:
